@@ -20,8 +20,14 @@ pip install -r requirements.txt
 
 ## Repository structure
 
-
-
+```
+.
+├── data/
+│   └── figs # contains data files for each figure  
+├── ent # scripts for entanglement entropy evolution
+├── otoc # scripts for out of order correlator 
+└── README.md
+```
 
 License
 
