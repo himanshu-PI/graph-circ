@@ -1,0 +1,59 @@
+import numpy as np
+import stim
+from scipy.optimize import curve_fit
+import matplotlib.pyplot as plt
+import networkx as nx
+from scipy.linalg import null_space
+from typing import List, Tuple, Union
+from itertools import cycle
+from joblib import Parallel, delayed
+from tqdm import tqdm, trange
+import seaborn as sns
+
+
+
+plt.rcParams['font.family'] = 'sans-serif'
+plt.rcParams['text.color'] = 'k'
+plt.rcParams['axes.labelcolor'] = 'k'
+plt.rcParams['text.usetex'] = True
+
+
+pal = ["003049","d62828","f77f00","fcbf49","eae2b7"]
+pal = ['#' + i for i in pal]
+
+marks = [
+    '.',  # point
+    ',',  # pixel
+    'o',  # circle
+    'v',  # triangle_down
+    '^',  # triangle_up
+    '<',  # triangle_left
+    '>',  # triangle_right
+    '1',  # tri_down
+    '2',  # tri_up
+    '3',  # tri_left
+    '4',  # tri_right
+    '8',  # octagon
+    's',  # square
+    'p',  # pentagon
+    'P',  # plus (filled)
+    '*',  # star
+    'h',  # hexagon1
+    'H',  # hexagon2
+    '+',  # plus
+    'x',  # x
+    'X',  # x (filled)
+    'D',  # diamond
+    'd',  # thin_diamond
+    '|',  # vline
+    '_',  # hline
+]
+
+
+
+
+
+# ==============================================
+
+
+
