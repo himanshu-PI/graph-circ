@@ -29,6 +29,7 @@ pip install -r requirements.txt
 └── README.md
 ```
 
-License
+Please contact regarding any issue with codes at hsahu@perimeterinstitute.ca
 
-MIT License © 2026 Himanshu Sahu
+License
+MIT License © 2026 Himanshu Sahu 
